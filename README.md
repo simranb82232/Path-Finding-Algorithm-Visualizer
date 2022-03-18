@@ -1,2 +1,2 @@
-# Path-Finding-Algorithm-Visualizer
-Program to visualize different path finding algorithms
+# Path Finding Algorithm Visualizer
+This program allows the user to select between a visualiztion of either the A* Search algorithm or the Dijkstra algorithm. After the user makes a selection, a window with a 25 x 25 grid is opened. To set the start node, the user clicks any square on the grid. The second click by the user sets the end node. After these first two clicks, any additional clicks by the user set obstacles on the grid that the program is not allowed to travel through. After this, the user can start the search by clicking the spacebar key, and the program will find the shortest path between the start and end nodes using the algorithm from the user's selection. This search pattern will also be visualized on the grid. At any time, the user can completely reset the grid by pressing the 'r' key.
