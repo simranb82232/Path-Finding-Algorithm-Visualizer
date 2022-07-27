@@ -1,8 +1,4 @@
-
 # ********** NOTE ***************
-# to choose A* algorithm, a choice will be given to select yes
-# if you want to run dijkstra's algorithm click 'No' on first pop up, then click 'yes' on second pop up
-
 # to set start we click on any node
 # to set end we click on any node
 # drag mouse click to set obstacles
@@ -99,7 +95,6 @@ class Square:
 
 # heuristic defined for A* pathfinder
 # Manhattan distance used for the formula
-# More info can be found at https://www.geeksforgeeks.org/a-search-algorithm/
 def heuristic(p1, p2):
     x1, y1 = p1
     x2, y2 = p2
@@ -326,10 +321,10 @@ def main(window, width, rows):
                     grid = setGrid(rows, width)
 
 
-# message box included to select between dijkstra's algorithm and A* algorithm
 root = tkinter.Tk()
 root.withdraw()
 
+# message box included to select between dijkstra's algorithm and A* algorithm
 msg = tkinter.messagebox.askquestion('Selection',
                                      'Do you want to visualize the A star search algorithm?')
 
