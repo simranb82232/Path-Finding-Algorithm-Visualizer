@@ -13,7 +13,7 @@ import tkinter
 from tkinter.messagebox import *
 
 width = 500
-rows = 25
+rows = 50
 window = pygame.display.set_mode((width, width))
 
 # define square colors and their corresponding definitions
